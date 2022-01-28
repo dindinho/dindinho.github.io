@@ -25688,19 +25688,6 @@ hr.line-deafult {
   padding: 0;
 }
 
-.card-profile[data-image="profile-image"] .card-header::after {
-  content: "";
-  width: 24%;
-  overflow: hidden;
-  position: absolute;
-  left: 32%;
-  top: 5%;
-  height: 90%;
-  background-color: #fff;
-  transform: rotate(80deg);
-  z-index: 1;
-}
-
 .card-profile[data-image="profile-image"] .lead,
 .card-profile[data-image="profile-image"] h4 {
   position: relative;
@@ -25713,7 +25700,7 @@ hr.line-deafult {
 
 .card-profile[data-image="profile-image"] .card-image {
   position: relative;
-  height: 250px;
+  height: 100%;
 }
 
 .card-profile[data-image="profile-image"] .card-image .dropdown {
